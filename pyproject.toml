@@ -1,0 +1,8 @@
+[tool.ruff.lint]
+select = ["E", "F", "UP", "Q", "N"]
+
+[tool.ruff.lint.flake8-quotes]
+inline-quotes = "single"
+
+[tool.ruff.format]
+quote-style = "single"
